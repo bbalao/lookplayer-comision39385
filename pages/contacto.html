@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lookplayer</title>
+    <link rel="stylesheet" href="../css/style.css" type="text/css">
+</head>
+<body>
+    <header class="encabezado4"> <!-- encabezado o barra de navegacion -->
+        <nav>
+            <img src="../assets/img/logo.png" alt="logo">
+            <div>
+                <ul class="navbar4">
+                    <li>
+                        <input type="text" placeholder="Buscador">
+                        <li><a href="../index.html">NOTICIAS</a></li>
+                        <li>JUGADORES</li>
+                        <li>TORNEOS</li>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+</header>
+
+
+<main>
+    <section>
+        <div class="titulocontacto">
+        <h1 class="tamañocontacto">CONTACTO</h1>
+        <h2 class="textocontacto">Por favor, rellene el siguiente formulario y nos pondremos en contacto a la mayor brevedad posible:</h2>
+        <h3 class="separacion">NOMBRE*</h3>
+        <input type="text" placeholder="Inserte su nombre">
+        </div>
+        
+        <div>
+            <h3>APELLIDOS*</h3>
+            <input type="text" placeholder="Inserte sus apellidos">
+        </div>
+
+        <div>
+            <h3>TELEFONO*</h3>
+            <input type="text " placeholder="Inserte su número">
+        </div>
+
+        <div>
+            <h3>CORREO ELECTRONICO*</h3>
+            <input type="text " placeholder="Inserte su correo">
+        </div>
+
+        <div>
+            <h3>TIPO DE CONSULTA</h3>
+            <input type="text" placeholder="Inserte su consulta">
+        </div>
+
+        <div>
+            <h3>MENSAJE</h3>
+            <input type="text" placeholder="Inserte su mensaje">
+            
+        </div>
+        <div class="subirarchivo">
+            <form action="upload.php" method="post" enctype="multipart/form-data">
+                <label for="archivo">Selecciona un archivo:</label>
+                <input type="file" id="archivo" name="archivo">
+                <input type="submit" value="Subir archivo">
+            </form>
+        </div>
+    </section>
+
+
+
+
+
+</main>
+
+
+<footer class="contactofooter">
+    <img src="../assets/img/logo.png" alt="logocontacto">
+    <nav>
+        <div>
+        <ul class="navbarcontacto">
+            <li>CONTACTO</li>
+            <li>PREGUNTAS FRECUENTES</li>
+            <li>AVISO LEGAL</li>
+            <li> <a href="../pages/nosotros.html">NOSOTROS</li></a>
+        </ul>
+        </div>
+    </nav>
+</footer>
+
+
+    
+</body>
+</html>
